@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-brand{
+    font-size: 1.6rem !important;
+    color: black !important;
+}
+.nav-link{
+    font-size: 1.4rem;
+    text-transform: capitalize !important;
+}
+.menu_active{
+    font-weight: bold;
+    border-bottom: 0.8px solid grey;
+}
+.nav-link:hover{
+    color: cadetblue !important;
+}
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+#header h1{
+    /* margin: 0 0 5px 0; */
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+#header .brand_name{
+    color: cyan;
+}
+#header h2{
+    color: black;
+    /* margin: 3px 0 0 0; */
+    font-size: 25px;
+}
+
+#header .btn-get-started,.btndes{
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #2f2f2f;
+    text-decoration: none;
+    background-color: #d5eaab;
+    border: 1px solid  ;
+}
+#header .btn-get-started:hover,.btndes:hover{
+    background-color: cyan;
+    color: white;
+
+}
+.header-img{
+    text-align: right;
+}
+#header .animated{
+    animation: up-down 3s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+        }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translate(-10px);
+    }
+}
+.card{
+    border-radius: 5%;
+    background-color: #94c5e2;
+}
+
+.imgdim{
+    border-radius: 5%;
+    height:200px !important;
+    width: 100% !important;
+}
+/* .footer_div{
+    position: relative;
+}
+footer{
+    position: absolute;
+  left: 0;
+  /* bottom: 0; */
+  /* top:inherit; */
+  /* width: 100%; */
+  /* background-color: red; */
+  /* color: white; */
+  /* text-align: center; */
+/* }  */
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
